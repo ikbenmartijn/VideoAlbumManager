@@ -1,4 +1,4 @@
-**Work in progress**
+**Work in progress.**
 *For now, you can only use this class to add albums and add videos to specified albums. Deleting, moving, ... will arrive as my needs grow. Or when people fork this repo :)*
 
 ## VideoAlbumManager
