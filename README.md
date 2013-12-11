@@ -4,7 +4,7 @@ Manages the creation and curation of video albums in your Photos app on iOS
 
 ## Use
 
-1. Check if an album exists
+### Check if an album exists
 
 `
 if (![VideoAlbumManager albumWithAlbumName:@"your fancy albumname"]) {
@@ -15,13 +15,13 @@ else {
 }
 `
 
-2. If necessary, add the album to Photos app
+### If necessary, add the album to Photos app
 
 `
 [VideoAlbumManager addAlbumWithAlbumName:@"your fancy albumname"];
 `
 
-3. Add a video asset to an album
+### Add a video asset to an album
 
 Here shown in a delegate method
 
