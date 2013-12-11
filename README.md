@@ -6,20 +6,20 @@ Manages the creation and curation of video albums in your Photos app on iOS
 
 ### Check if an album exists
 
-`
+```
 if (![VideoAlbumManager albumWithAlbumName:@"your fancy albumname"]) {
 	NSLog(@"Album exists...");
 }
 else {
 	NSLog(@"Album does not exists...");
 }
-`
+```
 
 ### If necessary, add the album to Photos app
 
-`
+```
 [VideoAlbumManager addAlbumWithAlbumName:@"your fancy albumname"];
-`
+```
 
 ### Add a video asset to an album
 
