@@ -1,3 +1,6 @@
+**Work in progress**
+*For now, you can only use this class to add albums and add videos to specified albums. Deleting, moving, ... will arrive as my needs grow. Or when people fork this repo :)*
+
 ## VideoAlbumManager
 
 Manages the creation and curation of video albums in your Photos app on iOS
